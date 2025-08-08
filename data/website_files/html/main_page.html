@@ -10,18 +10,22 @@
 <body>
   <div class="container">
     <header>
-      <h1>Тестирование сети</h1>
+      <div class="header-left">
+        <h1>Тестирование ONT</h1>
+        <div class="checkbox-controls">
+          <button id="selectAll">Выбрать все</button>
+          <button id="deselectAll">Снять всё</button>
+        </div>
+      </div>
       <div class="logo">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Rostelecom_logo_English_2018.svg" alt="Ростелеком">
       </div>
     </header>
 
-    <!-- Карточки устройств -->
     <div class="devices-grid" id="devicesGrid">
-      <!-- Динамически заполняется через JS -->
+      <!-- Карточки устройств загружаются через JS -->
     </div>
 
-    <!-- Выпадающее меню -->
     <div class="controls">
       <div class="dropdown">
         <label for="frequency">Выберите частоту:</label>
@@ -31,15 +35,13 @@
         </select>
       </div>
 
-      <!-- Кнопки управления -->
       <div class="buttons">
         <button id="startTest" class="btn-primary">Начать тест</button>
         <button id="stopTest" class="btn-secondary" disabled>Остановить</button>
       </div>
     </div>
 
-    <!-- Лог тестирования -->
-    <div class="log" id="testLog">
+    <div class="log">
       <h3>Журнал событий:</h3>
       <div class="log-content"></div>
     </div>
