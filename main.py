@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 
 from src.QMS_Engine.core_of_service import QMSEngine
 
@@ -8,6 +9,9 @@ logger = getLogger()
 
 
 app = FastAPI()
+
+app.mount('/css', StaticFiles(directory='data/website_files/css/'))
+app.mount('/js', StaticFiles(directory='data/website_files/js/'))
 
 engine = QMSEngine(app)
 logger.info("Инициализировалось ядро сайта.")

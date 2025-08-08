@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестирование устройств | Ростелеком</title>
+  <link rel="stylesheet" href="css/main_page.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Тестирование сети</h1>
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Rostelecom_logo_English_2018.svg" alt="Ростелеком">
+      </div>
+    </header>
+
+    <!-- Карточки устройств -->
+    <div class="devices-grid" id="devicesGrid">
+      <!-- Динамически заполняется через JS -->
+    </div>
+
+    <!-- Выпадающее меню -->
+    <div class="controls">
+      <div class="dropdown">
+        <label for="frequency">Выберите частоту:</label>
+        <select id="frequency">
+          <option value="2.4">2.4 GHz</option>
+          <option value="5">5 GHz</option>
+        </select>
+      </div>
+
+      <!-- Кнопки управления -->
+      <div class="buttons">
+        <button id="startTest" class="btn-primary">Начать тест</button>
+        <button id="stopTest" class="btn-secondary" disabled>Остановить</button>
+      </div>
+    </div>
+
+    <!-- Лог тестирования -->
+    <div class="log" id="testLog">
+      <h3>Журнал событий:</h3>
+      <div class="log-content"></div>
+    </div>
+  </div>
+
+  <script src="js/main_page.js"></script>
+</body>
+</html>
