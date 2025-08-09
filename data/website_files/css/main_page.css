@@ -222,39 +222,54 @@ h1 {
   align-items: center;
 }
 
-.dropdown {
+/* Поля для Wi-Fi данных */
+.wifi-credentials {
   flex: 1;
-  min-width: 200px;
+  min-width: 300px;
 }
 
-.dropdown label {
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-group label {
   display: block;
   margin-bottom: 8px;
   color: var(--rt-blue);
   font-weight: 500;
+  font-size: 15px;
 }
 
-.dropdown select {
+.input-group input {
   width: 100%;
-  padding: 10px 15px;
+  padding: 12px 15px;
   border: 1px solid #ddd;
   border-radius: 4px;
   background-color: var(--rt-white);
   color: #333;
   font-size: 16px;
-  cursor: pointer;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.dropdown select:focus {
+.input-group input:focus {
   border-color: var(--rt-blue);
   outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 51, 160, 0.2);
+}
+
+.input-group input::placeholder {
+  color: #aaa;
 }
 
 .buttons {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  align-self: flex-end;
 }
 
 .btn-primary {
@@ -368,6 +383,7 @@ h1 {
   
   .buttons {
     width: 100%;
+    margin-top: 15px;
   }
   
   .btn-primary, .btn-secondary {
@@ -392,4 +408,30 @@ h1 {
   .device-checkbox-container {
     margin-bottom: 8px;
   }
+  
+  .input-group input {
+    padding: 10px 12px;
+  }
+}
+/* Делаем всю карточку кликабельной */
+.device-card {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Убираем стандартное выделение при клике */
+.device-card:active {
+  transform: translateY(1px);
+}
+
+/* Подсветка при наведении на карточку */
+.device-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Стиль для активной карточки */
+.device-card.active {
+  background-color: #f5f9ff;
+  border-left-color: var(--rt-blue);
 }

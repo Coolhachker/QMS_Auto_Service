@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', async function() {
   const devicesGrid = document.getElementById('devicesGrid');
   const startTestBtn = document.getElementById('startTest');
   const stopTestBtn = document.getElementById('stopTest');
-  const frequencySelect = document.getElementById('frequency');
+  const ssidInput = document.getElementById('ssid');
+  const passwordInput = document.getElementById('password');
   const logContent = document.querySelector('.log-content');
   const selectAllBtn = document.getElementById('selectAll');
   const deselectAllBtn = document.getElementById('deselectAll');
@@ -12,12 +13,6 @@ document.addEventListener('DOMContentLoaded', async function() {
   async function loadDevices() {
     logMessage("Загрузка списка устройств...");
     try {
-      // В реальном проекте замените на:
-      // const response = await fetch('/api/devices');
-      // if (!response.ok) throw new Error('Ошибка сети');
-      // return await response.json();
-      
-      // Мок-данные:
       return [
         { id: 1, name: "Смартфон Samsung", status: "on" },
         { id: 2, name: "Ноутбук Lenovo", status: "off" },
@@ -54,6 +49,22 @@ document.addEventListener('DOMContentLoaded', async function() {
           </span>
         </div>
       `;
+      
+      card.addEventListener('click', (e) => {
+        if (e.target.tagName === 'INPUT' || e.target.classList.contains('device-status')) return;
+        
+        const checkbox = card.querySelector('.checkbox');
+        checkbox.checked = !checkbox.checked;
+        const event = new Event('change');
+        checkbox.dispatchEvent(event);
+        card.classList.toggle('active', checkbox.checked);
+      });
+      
+      const checkbox = card.querySelector('.checkbox');
+      checkbox.addEventListener('change', () => {
+        card.classList.toggle('active', checkbox.checked);
+      });
+
       devicesGrid.appendChild(card);
     });
   }
@@ -76,6 +87,17 @@ document.addEventListener('DOMContentLoaded', async function() {
     return Array.from(checkboxes).map(checkbox => parseInt(checkbox.dataset.id));
   }
 
+  // Валидация данных Wi-Fi
+  function validateWiFi() {
+    const ssid = ssidInput.value.trim();
+    if (!ssid) {
+      logMessage("Ошибка: введите имя Wi-Fi сети (SSID)!");
+      ssidInput.focus();
+      return false;
+    }
+    return true;
+  }
+
   // Логирование сообщений
   function logMessage(message) {
     if (!logContent) return;
@@ -87,34 +109,23 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
 
   // Отправка тестового запроса
-  async function sendTestRequest(frequency, action) {
+  async function sendTestRequest(action) {
     if (!validateSelection()) {
       logMessage("Ошибка: необходимо выбрать хотя бы одно устройство!");
       return false;
     }
+    
+    if (!validateWiFi()) return false;
 
+    const ssid = ssidInput.value.trim();
+    const password = passwordInput.value;
     const deviceIds = getSelectedDevices();
-    logMessage(`Запрос: ${action === 'start' ? 'Запуск' : 'Остановка'} теста на ${frequency} GHz для устройств [${deviceIds.join(', ')}]`);
+
+    logMessage(`Запрос: ${action === 'start' ? 'Запуск' : 'Остановка'} теста для сети '${ssid}'`);
 
     try {
-      // В реальном проекте:
-      // const response = await fetch('/api/test', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ frequency, deviceIds, action })
-      // });
-      
-      // if (!response.ok) {
-      //   throw new Error(`HTTP error! status: ${response.status}`);
-      // }
-      
-      // const data = await response.json();
-      // logMessage(data.message);
-      
-      // Имитация запроса
       await new Promise(resolve => setTimeout(resolve, 1000));
-      logMessage(`Тест ${action === 'start' ? 'запущен' : 'остановлен'} успешно`);
-      
+      logMessage(`Тест ${action === 'start' ? 'запущен' : 'остановлен'} успешно для сети '${ssid}'`);
       return true;
     } catch (error) {
       logMessage(`Ошибка запроса: ${error.message}`);
@@ -132,26 +143,24 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
       
       renderDevices(devices);
-      logMessage("Система готова. Выберите устройства для теста.");
+      logMessage("Система готова. Введите данные Wi-Fi и выберите устройства.");
       
-      // Обработчики группового выбора
       selectAllBtn.addEventListener('click', () => {
         document.querySelectorAll('.checkbox').forEach(checkbox => {
           checkbox.checked = true;
+          checkbox.dispatchEvent(new Event('change'));
         });
       });
 
       deselectAllBtn.addEventListener('click', () => {
         document.querySelectorAll('.checkbox').forEach(checkbox => {
           checkbox.checked = false;
+          checkbox.dispatchEvent(new Event('change'));
         });
       });
 
-      // Обработчики тестирования
       startTestBtn.addEventListener('click', async () => {
-        const frequency = frequencySelect.value;
-        const success = await sendTestRequest(frequency, 'start');
-        
+        const success = await sendTestRequest('start');
         if (success) {
           startTestBtn.disabled = true;
           stopTestBtn.disabled = false;
@@ -159,8 +168,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       });
 
       stopTestBtn.addEventListener('click', async () => {
-        const success = await sendTestRequest(frequencySelect.value, 'stop');
-        
+        const success = await sendTestRequest('stop');
         if (success) {
           startTestBtn.disabled = false;
           stopTestBtn.disabled = true;
@@ -171,6 +179,5 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
   }
 
-  // Запуск приложения
   initApp();
 });
