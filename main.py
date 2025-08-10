@@ -13,10 +13,11 @@ app = FastAPI()
 app.mount('/css', StaticFiles(directory='data/website_files/css/'))
 app.mount('/js', StaticFiles(directory='data/website_files/js/'))
 
-engine = QMSEngine(app)
+engine = QMSEngine()
 logger.info("Инициализировалось ядро сайта.")
 
 engine.run_case()
 
 app.include_router(engine.router_of_get_handlers)
+app.include_router(engine.router_of_post_handlers)
 logger.info("Подключил все endpoints")

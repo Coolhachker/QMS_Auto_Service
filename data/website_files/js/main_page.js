@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', async function() {
   const selectAllBtn = document.getElementById('selectAll');
   const deselectAllBtn = document.getElementById('deselectAll');
 
+  // Функция обновления состояния карточки
+  function updateCardState(card, isChecked) {
+    card.classList.toggle('active', isChecked);
+  }
+
   // Загрузка устройств
   async function loadDevices() {
     logMessage("Загрузка списка устройств...");
@@ -50,19 +55,29 @@ document.addEventListener('DOMContentLoaded', async function() {
         </div>
       `;
       
+      const checkbox = card.querySelector('.checkbox');
+      
+      // Обработчик клика по карточке
       card.addEventListener('click', (e) => {
-        if (e.target.tagName === 'INPUT' || e.target.classList.contains('device-status')) return;
+        // Игнорируем клики по статусу устройства
+        if (e.target.classList.contains('device-status')) return;
         
-        const checkbox = card.querySelector('.checkbox');
-        checkbox.checked = !checkbox.checked;
-        const event = new Event('change');
-        checkbox.dispatchEvent(event);
-        card.classList.toggle('active', checkbox.checked);
+        // Переключаем состояние только если кликнули не на сам чекбокс
+        if (e.target !== checkbox) {
+          checkbox.checked = !checkbox.checked;
+        }
+        
+        // Обновляем визуальное состояние
+        updateCardState(card, checkbox.checked);
+        
+        // Инициируем событие change
+        const changeEvent = new Event('change', { bubbles: true });
+        checkbox.dispatchEvent(changeEvent);
       });
       
-      const checkbox = card.querySelector('.checkbox');
+      // Обработчик изменения чекбокса
       checkbox.addEventListener('change', () => {
-        card.classList.toggle('active', checkbox.checked);
+        updateCardState(card, checkbox.checked);
       });
 
       devicesGrid.appendChild(card);
@@ -124,8 +139,32 @@ document.addEventListener('DOMContentLoaded', async function() {
     logMessage(`Запрос: ${action === 'start' ? 'Запуск' : 'Остановка'} теста для сети '${ssid}'`);
 
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      logMessage(`Тест ${action === 'start' ? 'запущен' : 'остановлен'} успешно для сети '${ssid}'`);
+      if (action === 'start') {
+        // Отправка POST-запроса на сервер
+        const response = await fetch('/start_net_test', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            ssid: ssid,
+            password: password,
+            list_id_of_devices: deviceIds
+          })
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        logMessage(`Ответ сервера: ${JSON.stringify(data)}`);
+      } else {
+        // Для остановки теста (оставил мок, замените на реальный эндпоинт при необходимости)
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        logMessage("Тест остановлен");
+      }
+      
       return true;
     } catch (error) {
       logMessage(`Ошибка запроса: ${error.message}`);
@@ -145,20 +184,24 @@ document.addEventListener('DOMContentLoaded', async function() {
       renderDevices(devices);
       logMessage("Система готова. Введите данные Wi-Fi и выберите устройства.");
       
+      // Обработчики группового выбора
       selectAllBtn.addEventListener('click', () => {
-        document.querySelectorAll('.checkbox').forEach(checkbox => {
+        document.querySelectorAll('.device-card').forEach(card => {
+          const checkbox = card.querySelector('.checkbox');
           checkbox.checked = true;
-          checkbox.dispatchEvent(new Event('change'));
+          updateCardState(card, true);
         });
       });
 
       deselectAllBtn.addEventListener('click', () => {
-        document.querySelectorAll('.checkbox').forEach(checkbox => {
+        document.querySelectorAll('.device-card').forEach(card => {
+          const checkbox = card.querySelector('.checkbox');
           checkbox.checked = false;
-          checkbox.dispatchEvent(new Event('change'));
+          updateCardState(card, false);
         });
       });
 
+      // Обработчики тестирования
       startTestBtn.addEventListener('click', async () => {
         const success = await sendTestRequest('start');
         if (success) {
@@ -179,5 +222,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
   }
 
+  // Запуск приложения
   initApp();
 });

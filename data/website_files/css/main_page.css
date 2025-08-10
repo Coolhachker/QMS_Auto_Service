@@ -90,11 +90,27 @@ h1 {
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+.device-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.device-card:active {
+  transform: translateY(0);
 }
 
 .device-card.invalid {
   animation: shake 0.5s;
   border-left-color: var(--rt-red);
+}
+
+.device-card.active {
+  background-color: #f5f9ff;
+  border-left-color: var(--rt-blue);
 }
 
 @keyframes shake {
@@ -122,6 +138,7 @@ h1 {
   color: var(--rt-blue);
   font-size: 1.1rem;
   font-weight: 500;
+  pointer-events: none;
 }
 
 .device-status {
@@ -157,6 +174,8 @@ h1 {
   opacity: 0;
   width: 0;
   height: 0;
+  cursor: pointer;
+  z-index: 2;
 }
 
 .checkmark {
@@ -412,26 +431,4 @@ h1 {
   .input-group input {
     padding: 10px 12px;
   }
-}
-/* Делаем всю карточку кликабельной */
-.device-card {
-  cursor: pointer;
-  user-select: none;
-}
-
-/* Убираем стандартное выделение при клике */
-.device-card:active {
-  transform: translateY(1px);
-}
-
-/* Подсветка при наведении на карточку */
-.device-card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  transform: translateY(-2px);
-}
-
-/* Стиль для активной карточки */
-.device-card.active {
-  background-color: #f5f9ff;
-  border-left-color: var(--rt-blue);
 }
