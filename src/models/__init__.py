@@ -10,4 +10,4 @@ class StartNetConnectionModel(BaseModel):
 class DeviceModel(BaseModel):
 	device_id: int
 	device_name: str
-	device_status: bool | None = None
+	device_status: str

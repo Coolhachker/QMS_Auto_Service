@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', async function() {
   const selectAllBtn = document.getElementById('selectAll');
   const deselectAllBtn = document.getElementById('deselectAll');
 
+  // Текущее состояние логов
+  let lastLogSize = 0;
+  let logRefreshInterval = 3000; // 3 секунды между обновлениями
+  let logUpdateTimer = null;
+
   // Функция обновления состояния карточки
   function updateCardState(card, isChecked) {
     card.classList.toggle('active', isChecked);
@@ -18,14 +23,16 @@ document.addEventListener('DOMContentLoaded', async function() {
   async function loadDevices() {
     logMessage("Загрузка списка устройств...");
     try {
-      return [
-        { id: 1, name: "Смартфон Samsung", status: "on" },
-        { id: 2, name: "Ноутбук Lenovo", status: "off" },
-        { id: 3, name: "Умный дом", status: "on" },
-        { id: 4, name: "Телевизор LG", status: "off" },
-        { id: 5, name: "Планшет Apple", status: "on" },
-        { id: 6, name: "Игровая консоль", status: "on" }
-      ];
+      const response = await fetch('/get_devices', {
+        method: "GET"
+      });
+
+      if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+      };
+
+      const data = await response.json();
+      return data;
     } catch (error) {
       logMessage(`Ошибка загрузки: ${error.message}`);
       return [];
@@ -44,13 +51,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         <div class="device-header">
           <div class="device-checkbox-container">
             <label class="device-checkbox">
-              <input type="checkbox" class="checkbox" data-id="${device.id}">
+              <input type="checkbox" class="checkbox" data-id="${device.device_id}">
               <span class="checkmark"></span>
             </label>
-            <h3>${device.name}</h3>
+            <h3>${device.device_name}</h3>
           </div>
-          <span class="device-status status-${device.status}">
-            ${device.status === 'on' ? 'Включен' : 'Выключен'}
+          <span class="device-status status-${device.device_status}">
+            ${device.device_status === 'on' ? 'Включен' : 'Выключен'}
           </span>
         </div>
       `;
@@ -59,29 +66,64 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       // Обработчик клика по карточке
       card.addEventListener('click', (e) => {
-        // Игнорируем клики по статусу устройства
         if (e.target.classList.contains('device-status')) return;
         
-        // Переключаем состояние только если кликнули не на сам чекбокс
         if (e.target !== checkbox) {
           checkbox.checked = !checkbox.checked;
         }
         
-        // Обновляем визуальное состояние
         updateCardState(card, checkbox.checked);
-        
-        // Инициируем событие change
         const changeEvent = new Event('change', { bubbles: true });
         checkbox.dispatchEvent(changeEvent);
       });
       
-      // Обработчик изменения чекбокса
       checkbox.addEventListener('change', () => {
         updateCardState(card, checkbox.checked);
       });
 
       devicesGrid.appendChild(card);
     });
+  }
+
+  // Чтение логов с сервера
+  async function updateLogs() {
+    try {
+      const response = await fetch('/logs/logs.log');
+      if (!response.ok) throw new Error('Ошибка загрузки логов');
+      
+      const logText = await response.text();
+      const logLines = logText.split('\n').filter(line => line.trim());
+      
+      if (logLines.length > lastLogSize) {
+        // Добавляем только новые записи
+        const newLines = logLines.slice(lastLogSize);
+        newLines.forEach(line => {
+          const entry = document.createElement('div');
+          entry.textContent = line;
+          logContent.appendChild(entry);
+        });
+        
+        lastLogSize = logLines.length;
+        logContent.scrollTop = logContent.scrollHeight;
+      }
+    } catch (error) {
+      console.error('Ошибка обновления логов:', error);
+    }
+  }
+
+  // Запуск автообновления логов
+  function startLogUpdates() {
+    if (logUpdateTimer) clearInterval(logUpdateTimer);
+    logUpdateTimer = setInterval(updateLogs, logRefreshInterval);
+    updateLogs(); // Первая загрузка
+  }
+
+  // Остановка автообновления логов
+  function stopLogUpdates() {
+    if (logUpdateTimer) {
+      clearInterval(logUpdateTimer);
+      logUpdateTimer = null;
+    }
   }
 
   // Валидация выбора устройств
@@ -113,14 +155,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     return true;
   }
 
-  // Логирование сообщений
+  // Логирование сообщений (для локальных сообщений)
   function logMessage(message) {
-    if (!logContent) return;
-    
     const entry = document.createElement('div');
     entry.textContent = `[${new Date().toLocaleTimeString('ru-RU')}] ${message}`;
     logContent.appendChild(entry);
     logContent.scrollTop = logContent.scrollHeight;
+    lastLogSize++; // Учитываем добавленное сообщение
   }
 
   // Отправка тестового запроса
@@ -140,7 +181,6 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     try {
       if (action === 'start') {
-        // Отправка POST-запроса на сервер
         const response = await fetch('/start_net_test', {
           method: 'POST',
           headers: {
@@ -160,7 +200,6 @@ document.addEventListener('DOMContentLoaded', async function() {
         const data = await response.json();
         logMessage(`Ответ сервера: ${JSON.stringify(data)}`);
       } else {
-        // Для остановки теста (оставил мок, замените на реальный эндпоинт при необходимости)
         await new Promise(resolve => setTimeout(resolve, 1000));
         logMessage("Тест остановлен");
       }
@@ -182,6 +221,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
       
       renderDevices(devices);
+      startLogUpdates(); // Запускаем мониторинг логов
       logMessage("Система готова. Введите данные Wi-Fi и выберите устройства.");
       
       // Обработчики группового выбора

@@ -3,7 +3,10 @@ import sqlite3
 from src.models import DeviceModel
 
 from logging import getLogger
-connection = sqlite3.connect("data/db.sqlite")
+
+from configs.paths import path_to_sqlite_db
+
+connection = sqlite3.connect(path_to_sqlite_db)
 
 logger = getLogger()
 
@@ -28,7 +31,13 @@ class SQLiteDB:
 
 
 		for device in devices:
-			list_of_devices.append(DeviceModel(device_id=device[0], device_name=device[1], device_status=device[2]))
+			list_of_devices.append(
+				DeviceModel(
+					device_id=device[0], 
+					device_name=device[1], 
+					device_status='on' if device[2] is True else 'off'
+					)
+				)
 
 		return list_of_devices
 
@@ -38,7 +47,7 @@ class SQLiteDB:
 
 		id_of_device = self.cursor.fetchone()[0]
 
-		self.cursor.execute(f"INSERT INTO state_of_device ('id_of_device') VALUES ({id_of_device})")
+		self.cursor.execute("INSERT INTO state_of_device ('id_of_device', 'state') VALUES (?, ?)", (id_of_device, True))
 
 		connection.commit()
 
