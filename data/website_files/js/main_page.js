@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Текущее состояние логов
   let lastLogSize = 0;
-  let logRefreshInterval = 3000; // 3 секунды между обновлениями
+  let logRefreshInterval = 10000;
   let logUpdateTimer = null;
 
   // Функция обновления состояния карточки
@@ -47,42 +47,116 @@ document.addEventListener('DOMContentLoaded', async function() {
     devices.forEach(device => {
       const card = document.createElement('div');
       card.className = 'device-card';
+      card.dataset.deviceId = device.device_id;
+      
+      // Добавляем класс working если устройство в работе
+      if (device.device_status === 'working') {
+        card.classList.add('working');
+      }
+      
       card.innerHTML = `
         <div class="device-header">
-          <div class="device-checkbox-container">
-            <label class="device-checkbox">
-              <input type="checkbox" class="checkbox" data-id="${device.device_id}">
-              <span class="checkmark"></span>
-            </label>
-            <h3>${device.device_name}</h3>
+          <div class="device-title-row">
+            <div class="device-checkbox-container">
+              <label class="device-checkbox">
+                <input type="checkbox" class="checkbox" data-id="${device.device_id}">
+                <span class="checkmark"></span>
+              </label>
+              <h3 title="${device.device_name}">${device.device_name}</h3>
+            </div>
+            <div class="device-actions">
+              <button class="refresh-btn" title="Обновить данные">↻</button>
+            </div>
           </div>
-          <span class="device-status status-${device.device_status}">
-            ${device.device_status === 'on' ? 'Включен' : 'Выключен'}
-          </span>
+          <div class="device-status-row">
+            <span class="device-status status-${device.device_status}">
+              ${device.device_status === 'on' ? 'Включен' : 
+                device.device_status === 'off' ? 'Выключен' : 
+                'В работе...'}
+            </span>
+          </div>
         </div>
       `;
       
       const checkbox = card.querySelector('.checkbox');
       
-      // Обработчик клика по карточке
+      // Обработчик клика по карточке (ИСПРАВЛЕНО)
       card.addEventListener('click', (e) => {
-        if (e.target.classList.contains('device-status')) return;
-        
-        if (e.target !== checkbox) {
-          checkbox.checked = !checkbox.checked;
+        // Игнорируем клики по кнопке обновления и статусу
+        if (e.target.closest('.refresh-btn') || e.target.classList.contains('device-status')) {
+          return;
         }
         
-        updateCardState(card, checkbox.checked);
+        const newState = !checkbox.checked;
+        checkbox.checked = newState;
+        updateCardState(card, newState);
+        
         const changeEvent = new Event('change', { bubbles: true });
         checkbox.dispatchEvent(changeEvent);
       });
       
-      checkbox.addEventListener('change', () => {
+      checkbox.addEventListener('change', (e) => {
+        e.stopPropagation();
         updateCardState(card, checkbox.checked);
+      });
+
+      // Обработчик для кнопки обновления
+      const refreshBtn = card.querySelector('.refresh-btn');
+      refreshBtn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        await refreshDeviceCard(card, device.device_id);
       });
 
       devicesGrid.appendChild(card);
     });
+  }
+
+  // Обновление карточки устройства
+  async function refreshDeviceCard(card, deviceId) {
+    const refreshBtn = card.querySelector('.refresh-btn');
+    refreshBtn.classList.add('loading');
+    
+    try {
+      const response = await fetch(`/get_device/${deviceId}`);
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      
+      const deviceData = await response.json();
+      
+      // Сохраняем состояние чекбокса (ИСПРАВЛЕНО)
+      const wasChecked = card.querySelector('.checkbox').checked;
+      
+      // Обновляем класс working
+      card.classList.toggle('working', deviceData.device_status === 'working');
+      
+      // Обновляем данные карточки
+      card.querySelector('.device-status').className = `device-status status-${deviceData.device_status}`;
+      card.querySelector('.device-status').textContent = "";
+      if (deviceData.device_status == 'on') {
+        card.querySelector('.device-status').textContent = 'Включен';
+      };
+      if (deviceData.device_status == 'off') {
+        card.querySelector('.device-status').textContent = 'Выключен';
+      };
+      if (deviceData.device_status == 'working') {
+        card.querySelector('.device-status').textContent = 'В работе...';
+      };
+      
+      const nameElement = card.querySelector('h3');
+      nameElement.textContent = deviceData.device_name;
+      nameElement.title = deviceData.device_name;
+      
+      // Восстанавливаем состояние чекбокса
+      card.querySelector('.checkbox').checked = wasChecked;
+      updateCardState(card, wasChecked);
+      
+      logMessage(`Устройство "${deviceData.device_name}" обновлено`);
+    } catch (error) {
+      logMessage(`Ошибка обновления устройства: ${error.message}`);
+      card.classList.add('invalid');
+      setTimeout(() => card.classList.remove('invalid'), 1000);
+    } finally {
+      refreshBtn.classList.remove('loading');
+    }
   }
 
   // Чтение логов с сервера
@@ -95,7 +169,6 @@ document.addEventListener('DOMContentLoaded', async function() {
       const logLines = logText.split('\n').filter(line => line.trim());
       
       if (logLines.length > lastLogSize) {
-        // Добавляем только новые записи
         const newLines = logLines.slice(lastLogSize);
         newLines.forEach(line => {
           const entry = document.createElement('div');
@@ -115,7 +188,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   function startLogUpdates() {
     if (logUpdateTimer) clearInterval(logUpdateTimer);
     logUpdateTimer = setInterval(updateLogs, logRefreshInterval);
-    updateLogs(); // Первая загрузка
+    updateLogs();
   }
 
   // Остановка автообновления логов
@@ -141,7 +214,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Получение выбранных устройств
   function getSelectedDevices() {
     const checkboxes = document.querySelectorAll('.checkbox:checked');
-    return Array.from(checkboxes).map(checkbox => parseInt(checkbox.dataset.id));
+    return Array.from(checkboxes).map(checkbox => checkbox.dataset.id);
   }
 
   // Валидация данных Wi-Fi
@@ -155,13 +228,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     return true;
   }
 
-  // Логирование сообщений (для локальных сообщений)
+  // Логирование сообщений
   function logMessage(message) {
     const entry = document.createElement('div');
     entry.textContent = `[${new Date().toLocaleTimeString('ru-RU')}] ${message}`;
     logContent.appendChild(entry);
     logContent.scrollTop = logContent.scrollHeight;
-    lastLogSize++; // Учитываем добавленное сообщение
+    lastLogSize++;
   }
 
   // Отправка тестового запроса
@@ -221,7 +294,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
       
       renderDevices(devices);
-      startLogUpdates(); // Запускаем мониторинг логов
+      startLogUpdates();
       logMessage("Система готова. Введите данные Wi-Fi и выберите устройства.");
       
       // Обработчики группового выбора

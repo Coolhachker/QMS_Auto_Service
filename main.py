@@ -24,3 +24,6 @@ engine.run_case()
 app.include_router(engine.router_of_get_handlers)
 app.include_router(engine.router_of_post_handlers)
 logger.info("Подключил все endpoints")
+
+from src.rabbitmq_engine.producer import producer
+logger.info('запустился rmq брокер.')

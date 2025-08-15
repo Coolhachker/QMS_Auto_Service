@@ -1,134 +1,471 @@
-INFO : 2025-08-09 01:17:03,098 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:17:03,098 - Подключил все endpoints
-INFO : 2025-08-09 01:18:32,132 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:18:32,133 - Подключил все endpoints
-INFO : 2025-08-09 01:21:09,351 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:21:09,352 - Подключил все endpoints
-INFO : 2025-08-09 01:21:27,003 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:21:27,004 - Подключил все endpoints
-INFO : 2025-08-09 01:21:57,004 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:21:57,005 - Подключил все endpoints
-INFO : 2025-08-09 01:21:58,320 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:21:58,321 - Подключил все endpoints
-INFO : 2025-08-09 01:22:22,359 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:22:22,359 - Подключил все endpoints
-INFO : 2025-08-09 01:24:48,899 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:24:48,900 - Подключил все endpoints
-INFO : 2025-08-09 01:24:52,518 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:24:52,519 - Подключил все endpoints
-INFO : 2025-08-09 01:26:43,619 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:26:43,621 - Подключил все endpoints
-INFO : 2025-08-09 01:27:25,629 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:27:25,630 - Подключил все endpoints
-INFO : 2025-08-09 01:44:05,057 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:44:05,059 - Подключил все endpoints
-INFO : 2025-08-09 01:49:28,956 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:49:28,958 - Подключил все endpoints
-INFO : 2025-08-09 01:51:00,042 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:51:00,043 - Подключил все endpoints
-INFO : 2025-08-09 01:51:16,265 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:51:16,266 - Подключил все endpoints
-INFO : 2025-08-09 01:51:35,073 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 01:51:35,074 - Подключил все endpoints
-INFO : 2025-08-09 02:01:59,413 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 02:01:59,413 - Подключил все endpoints
-INFO : 2025-08-09 10:25:19,528 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 10:25:19,528 - Подключил все endpoints
-INFO : 2025-08-09 13:56:37,949 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 13:56:37,949 - Подключил все endpoints
-INFO : 2025-08-09 14:03:31,290 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 14:03:31,291 - Подключил все endpoints
-INFO : 2025-08-09 21:32:50,964 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 21:32:50,964 - Подключил все endpoints
-INFO : 2025-08-09 21:52:29,871 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 21:52:29,871 - Подключил все endpoints
-INFO : 2025-08-09 22:04:21,932 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 22:04:21,932 - Подключил все endpoints
-INFO : 2025-08-09 22:25:44,882 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 22:25:44,898 - Подключил все endpoints
-INFO : 2025-08-09 22:35:17,864 - Инициализировалось ядро сайта.
-INFO : 2025-08-09 22:35:17,868 - Подключил все endpoints
-DEBUG : 2025-08-09 22:35:41,752 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='1234567890' list_id_of_devices=[1, 2]
-DEBUG : 2025-08-09 22:38:30,836 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='1234567890' list_id_of_devices=[1, 2, 3, 4, 5, 6]
-INFO : 2025-08-10 18:24:46,669 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:24:46,672 - Подключил все endpoints
-INFO : 2025-08-10 18:27:18,329 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:27:18,329 - Подключил все endpoints
-INFO : 2025-08-10 18:28:19,006 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:28:19,009 - Подключил все endpoints
-INFO : 2025-08-10 18:29:27,418 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:29:27,425 - Подключил все endpoints
-INFO : 2025-08-10 18:30:40,448 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:30:40,456 - Подключил все endpoints
-INFO : 2025-08-10 18:31:35,198 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:31:35,206 - Подключил все endpoints
-INFO : 2025-08-10 18:31:57,998 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:31:58,005 - Подключил все endpoints
-INFO : 2025-08-10 18:32:17,396 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:32:17,396 - Подключил все endpoints
-DEBUG : 2025-08-10 18:32:19,542 - [(1, 'iphone 11', None)]
-INFO : 2025-08-10 18:33:38,906 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:33:38,909 - Подключил все endpoints
-INFO : 2025-08-10 18:33:54,799 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:33:54,806 - Подключил все endpoints
-DEBUG : 2025-08-10 18:33:56,604 - [(1, 'iphone 11', None)]
-INFO : 2025-08-10 18:34:13,356 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:34:13,358 - Подключил все endpoints
-DEBUG : 2025-08-10 18:34:15,139 - [(1, 'iphone 11', None)]
-INFO : 2025-08-10 18:40:32,006 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:40:32,006 - Подключил все endpoints
-DEBUG : 2025-08-10 18:40:38,448 - [(1, 'iphone 11', None)]
-INFO : 2025-08-10 18:41:13,889 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 18:41:13,889 - Подключил все endpoints
-DEBUG : 2025-08-10 18:41:17,810 - [(1, 'iphone 11', None)]
-INFO : 2025-08-10 23:11:54,654 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 23:11:54,654 - Подключил все endpoints
-DEBUG : 2025-08-10 23:12:04,212 - [(1, 'iphone 11', None)]
-DEBUG : 2025-08-10 23:13:00,824 - [(1, 'iphone 11', None)]
-DEBUG : 2025-08-10 23:14:01,670 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='12345678' list_id_of_devices=[1]
-INFO : 2025-08-10 23:16:33,764 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 23:16:33,764 - Подключил все endpoints
-DEBUG : 2025-08-10 23:16:40,109 - []
-INFO : 2025-08-10 23:17:18,956 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 23:17:18,956 - Подключил все endpoints
-DEBUG : 2025-08-10 23:17:21,446 - [(1, 'iphone 11', 1)]
-INFO : 2025-08-10 23:23:05,959 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 23:23:05,959 - Подключил все endpoints
-DEBUG : 2025-08-10 23:23:10,996 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-10 23:25:46,527 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-10 23:25:46,648 - [(1, 'iphone 11', 1)]
-INFO : 2025-08-10 23:25:48,961 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 23:25:48,961 - Подключил все endpoints
-DEBUG : 2025-08-10 23:25:53,705 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-10 23:26:00,937 - [(1, 'iphone 11', 1)]
-INFO : 2025-08-10 23:26:51,336 - Инициализировалось ядро сайта.
-INFO : 2025-08-10 23:26:51,336 - Подключил все endpoints
-DEBUG : 2025-08-10 23:26:53,324 - [(1, 'iphone 11', 1)]
-INFO : 2025-08-11 10:51:41,708 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 10:51:41,708 - Подключил все endpoints
-DEBUG : 2025-08-11 10:51:45,343 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-11 10:52:15,585 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='1234567890' list_id_of_devices=[1]
-INFO : 2025-08-11 13:46:35,397 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 13:46:35,397 - Подключил все endpoints
-DEBUG : 2025-08-11 13:46:40,587 - [(1, 'iphone 11', 1)]
-INFO : 2025-08-11 13:47:57,585 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 13:47:57,585 - Подключил все endpoints
-DEBUG : 2025-08-11 13:48:04,538 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-11 13:48:51,384 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='1234567890' list_id_of_devices=[1]
-INFO : 2025-08-11 12:11:53,476 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 12:11:53,481 - Подключил все endpoints
-INFO : 2025-08-11 12:14:43,707 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 12:14:43,709 - Подключил все endpoints
-INFO : 2025-08-11 12:17:34,908 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 12:17:34,911 - Подключил все endpoints
-INFO : 2025-08-11 12:19:13,735 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 12:19:13,737 - Подключил все endpoints
-INFO : 2025-08-11 12:26:35,982 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 12:26:35,984 - Подключил все endpoints
-DEBUG : 2025-08-11 12:26:40,801 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-11 12:27:20,450 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='1234567890' list_id_of_devices=[1]
-INFO : 2025-08-11 13:09:38,789 - Инициализировалось ядро сайта.
-INFO : 2025-08-11 13:09:38,793 - Подключил все endpoints
-DEBUG : 2025-08-11 13:10:13,617 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-11 13:10:15,153 - [(1, 'iphone 11', 1)]
-DEBUG : 2025-08-11 13:10:15,929 - [(1, 'iphone 11', 1)]
+INFO : 2025-08-15 05:52:14,420 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 05:52:14,424 - Подключил все endpoints
+INFO : 2025-08-15 05:52:14,425 - запустился rmq брокер.
+INFO : 2025-08-15 05:55:27,011 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 05:55:27,018 - Подключил все endpoints
+INFO : 2025-08-15 05:55:27,019 - запустился rmq брокер.
+DEBUG : 2025-08-15 06:03:26,403 - [('edf8b364-5', 'MacBookPro15,2', 0)]
+DEBUG : 2025-08-15 06:03:26,403 - Device: edf8b364-5, status: 0
+INFO : 2025-08-15 08:09:01,901 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 08:09:01,905 - Подключил все endpoints
+INFO : 2025-08-15 08:09:01,906 - запустился rmq брокер.
+INFO : 2025-08-15 08:11:46,376 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 08:11:46,386 - Подключил все endpoints
+INFO : 2025-08-15 08:11:46,387 - запустился rmq брокер.
+DEBUG : 2025-08-15 08:11:58,057 - []
+DEBUG : 2025-08-15 08:11:58,059 - []
+DEBUG : 2025-08-15 08:12:04,466 - []
+DEBUG : 2025-08-15 08:12:04,472 - []
+DEBUG : 2025-08-15 08:12:45,440 - [('edf8b364-5', 'MacBookPro15,2', 'off')]
+DEBUG : 2025-08-15 08:12:45,442 - Device: edf8b364-5, status: off
+DEBUG : 2025-08-15 08:12:45,443 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f463ef0b110>>)
+DEBUG : 2025-08-15 08:12:45,444 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:12:45,445 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:45,447 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:12:45,448 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:12:45,448 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:45,450 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f463e5147f0> with deadline=254.350210753 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f463f3e1400>>; now=254.050210753; delay=0.3
+DEBUG : 2025-08-15 08:12:45,455 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:45,456 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f463e5147f0> with deadline=254.350210753 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f463f3e1400>>
+INFO : 2025-08-15 08:12:45,457 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:12:45,546 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 08:12:45,546 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 08:12:47,319 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f463ef0b110>>)
+DEBUG : 2025-08-15 08:12:47,319 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:12:47,320 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:47,321 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:12:47,322 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:12:47,323 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:47,324 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f463efce440> with deadline=256.224482662 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f463e52b640>>; now=255.924482662; delay=0.3
+DEBUG : 2025-08-15 08:12:47,335 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:47,336 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f463efce440> with deadline=256.224482662 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f463e52b640>>
+INFO : 2025-08-15 08:12:47,337 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:12:48,395 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f463ef0b110>>)
+DEBUG : 2025-08-15 08:12:48,396 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:12:48,397 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:48,398 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:12:48,399 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:12:48,400 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:48,400 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f463efce2f0> with deadline=257.30084328600003 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f463e52ab00>>; now=257.000843286; delay=0.3
+DEBUG : 2025-08-15 08:12:48,404 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 37802), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:12:48,405 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f463efce2f0> with deadline=257.30084328600003 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f463e52ab00>>
+INFO : 2025-08-15 08:12:48,406 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:13:14,470 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='12' list_id_of_devices=['edf8b364-5']
+DEBUG : 2025-08-15 08:14:07,367 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='12' list_id_of_devices=['edf8b364-5']
+INFO : 2025-08-15 08:16:34,162 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 08:16:34,166 - Подключил все endpoints
+INFO : 2025-08-15 08:16:34,167 - запустился rmq брокер.
+INFO : 2025-08-15 08:16:39,602 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 08:16:39,625 - Подключил все endpoints
+INFO : 2025-08-15 08:16:39,627 - запустился rmq брокер.
+DEBUG : 2025-08-15 08:16:44,857 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 08:16:44,858 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 08:16:44,858 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:16:44,859 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:16:44,859 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:44,860 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:16:44,860 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:16:44,860 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:44,861 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2776620> with deadline=493.810626501 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea277f5c0>>; now=493.510626501; delay=0.3
+DEBUG : 2025-08-15 08:16:44,864 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:44,870 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2776620> with deadline=493.810626501 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea277f5c0>>
+INFO : 2025-08-15 08:16:44,871 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:16:44,879 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 08:16:44,880 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 08:16:48,257 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:16:48,259 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:16:48,261 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:48,263 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:16:48,265 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:16:48,267 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:48,271 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2777400> with deadline=497.22083825100003 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c90d00>>; now=496.920838251; delay=0.3
+DEBUG : 2025-08-15 08:16:48,275 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:48,276 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2777400> with deadline=497.22083825100003 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c90d00>>
+INFO : 2025-08-15 08:16:48,277 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:16:51,995 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:16:51,996 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:16:51,997 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:51,998 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:16:51,999 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:16:52,000 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:52,001 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2777400> with deadline=500.95062294900004 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91140>>; now=500.650622949; delay=0.3
+DEBUG : 2025-08-15 08:16:52,006 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:16:52,008 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2777400> with deadline=500.95062294900004 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91140>>
+INFO : 2025-08-15 08:16:52,009 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:17:03,179 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='12' list_id_of_devices=['edf8b364-5']
+DEBUG : 2025-08-15 08:17:03,182 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:17:03,185 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:17:03,186 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:17:03,187 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:17:03,188 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:17:03,189 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:17:03,190 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c80eb0> with deadline=512.13950704 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91c00>>; now=511.83950704; delay=0.3
+DEBUG : 2025-08-15 08:17:03,194 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:17:03,196 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c80eb0> with deadline=512.13950704 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91c00>>
+INFO : 2025-08-15 08:17:03,197 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+DEBUG : 2025-08-15 08:17:09,104 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:17:09,106 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:17:09,107 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:17:09,109 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:17:09,110 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:17:09,112 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:17:09,113 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2776140> with deadline=518.069624508 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c92a00>>; now=517.769624508; delay=0.3
+DEBUG : 2025-08-15 08:17:09,415 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea27762f0> with deadline=518.370981575 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91e00>>; now=518.070981575; delay=0.3
+DEBUG : 2025-08-15 08:17:09,716 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea27772e0> with deadline=518.671773834 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91c40>>; now=518.371773834; delay=0.3
+DEBUG : 2025-08-15 08:17:10,017 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2776a10> with deadline=518.972702318 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c92a00>>; now=518.672702318; delay=0.3
+DEBUG : 2025-08-15 08:17:10,318 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea2776140> with deadline=519.2742096139999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c91e00>>; now=518.974209614; delay=0.3
+DEBUG : 2025-08-15 08:18:56,906 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:18:56,907 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:18:56,909 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:18:56,911 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:18:56,913 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:18:56,914 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:18:56,920 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:18:56,923 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c80d60> with deadline=625.8982416739999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c90e00>>; now=625.598241674; delay=0.3
+DEBUG : 2025-08-15 08:18:56,925 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c80d60> with deadline=625.8982416739999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c90e00>>
+INFO : 2025-08-15 08:18:56,928 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 08:18:57,025 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 08:18:57,029 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:19:05,068 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='12' list_id_of_devices=['edf8b364-5']
+DEBUG : 2025-08-15 08:19:05,070 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:19:05,072 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:19:05,074 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:19:05,077 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:19:05,079 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:19:05,080 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:19:05,084 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:19:05,089 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c81510> with deadline=634.064499086 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c93440>>; now=633.764499086; delay=0.3
+DEBUG : 2025-08-15 08:19:05,092 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c81510> with deadline=634.064499086 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c93440>>
+INFO : 2025-08-15 08:19:05,095 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 08:19:09,208 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fcea26ae000>>)
+DEBUG : 2025-08-15 08:19:09,209 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:19:09,210 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:19:09,211 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:19:09,212 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:19:09,213 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:19:09,215 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 55942), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:19:09,216 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c81360> with deadline=638.197747285 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c95080>>; now=637.897747285; delay=0.3
+DEBUG : 2025-08-15 08:19:09,217 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fcea1c81360> with deadline=638.197747285 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fcea1c95080>>
+INFO : 2025-08-15 08:19:09,218 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 08:19:09,334 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 08:21:25,308 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 08:21:25,315 - Подключил все endpoints
+INFO : 2025-08-15 08:21:25,315 - запустился rmq брокер.
+DEBUG : 2025-08-15 08:21:37,046 - [('edf8b364-5', 'MacBookPro15,2', 'off')]
+DEBUG : 2025-08-15 08:21:37,047 - Device: edf8b364-5, status: off
+DEBUG : 2025-08-15 08:21:37,049 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fccbf174c20>>)
+DEBUG : 2025-08-15 08:21:37,050 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:21:37,051 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:21:37,052 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:21:37,052 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:21:37,053 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:21:37,053 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbdfeb190> with deadline=786.062264349 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbdfed100>>; now=785.762264349; delay=0.3
+DEBUG : 2025-08-15 08:21:37,056 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:21:37,057 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fccbdfeb190> with deadline=786.062264349 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbdfed100>>
+INFO : 2025-08-15 08:21:37,057 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 08:21:37,058 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 08:21:37,225 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 08:21:37,226 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 08:21:52,348 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='123' list_id_of_devices=['edf8b364-5']
+DEBUG : 2025-08-15 08:21:52,350 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fccbf174c20>>)
+DEBUG : 2025-08-15 08:21:52,353 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:21:52,355 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:21:52,358 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:21:52,360 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:21:52,362 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:21:52,366 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538f70> with deadline=801.3751952529999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53e400>>; now=801.075195253; delay=0.3
+DEBUG : 2025-08-15 08:21:52,377 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:21:52,379 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538f70> with deadline=801.3751952529999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53e400>>
+INFO : 2025-08-15 08:21:52,382 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 08:21:52,503 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+DEBUG : 2025-08-15 08:22:14,331 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fccbf174c20>>)
+DEBUG : 2025-08-15 08:22:14,333 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:22:14,335 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:22:14,337 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:22:14,340 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:22:14,342 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:22:14,346 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538bb0> with deadline=823.3613016459999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbdffc1c0>>; now=823.061301646; delay=0.3
+DEBUG : 2025-08-15 08:22:14,353 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:22:14,356 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538bb0> with deadline=823.3613016459999 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbdffc1c0>>
+INFO : 2025-08-15 08:22:14,358 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 08:22:14,360 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 08:26:16,386 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 08:26:16,386 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 08:26:16,387 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fccbf174c20>>)
+DEBUG : 2025-08-15 08:26:16,388 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:26:16,389 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:26:16,390 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:26:16,390 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:26:16,392 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:26:16,393 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd5388b0> with deadline=1065.451561502 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd540580>>; now=1065.151561502; delay=0.3
+DEBUG : 2025-08-15 08:26:16,396 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:26:16,397 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd5388b0> with deadline=1065.451561502 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd540580>>
+INFO : 2025-08-15 08:26:16,398 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 08:26:16,398 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 08:26:16,402 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 08:26:16,403 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 08:26:31,148 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='123' list_id_of_devices=['edf8b364-5']
+DEBUG : 2025-08-15 08:26:31,151 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fccbf174c20>>)
+DEBUG : 2025-08-15 08:26:31,154 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:26:31,156 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:26:31,159 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:26:31,161 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:26:31,162 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:26:31,165 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538ee0> with deadline=1080.223117963 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbdffc1c0>>; now=1079.923117963; delay=0.3
+DEBUG : 2025-08-15 08:26:31,176 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:26:31,181 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538ee0> with deadline=1080.223117963 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbdffc1c0>>
+INFO : 2025-08-15 08:26:31,183 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+DEBUG : 2025-08-15 08:28:10,610 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fccbf174c20>>)
+DEBUG : 2025-08-15 08:28:10,611 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 08:28:10,612 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:28:10,613 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 08:28:10,614 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 08:28:10,615 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 36252), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 08:28:10,616 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538e80> with deadline=1179.699812957 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53e400>>; now=1179.399812957; delay=0.3
+DEBUG : 2025-08-15 08:28:10,917 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538e80> with deadline=1180.001376354 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53eec0>>; now=1179.701376354; delay=0.3
+DEBUG : 2025-08-15 08:28:11,219 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538e80> with deadline=1180.302566481 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53eec0>>; now=1180.002566481; delay=0.3
+DEBUG : 2025-08-15 08:28:11,520 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538e80> with deadline=1180.603849325 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53e400>>; now=1180.303849325; delay=0.3
+DEBUG : 2025-08-15 08:28:11,822 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fccbd538e80> with deadline=1180.905592155 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7fccbd53e400>>; now=1180.605592155; delay=0.3
+INFO : 2025-08-15 08:28:12,242 - status of device: edf8b364-5 - {'response': 4}
+INFO : 2025-08-15 09:55:15,895 - Инициализировалось ядро сайта.
+INFO : 2025-08-15 09:55:15,900 - Подключил все endpoints
+INFO : 2025-08-15 09:55:15,900 - запустился rmq брокер.
+DEBUG : 2025-08-15 10:14:42,898 - [('edf8b364-5', 'MacBookPro15,2', 'off')]
+DEBUG : 2025-08-15 10:14:42,899 - Device: edf8b364-5, status: off
+DEBUG : 2025-08-15 10:14:42,900 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:14:42,901 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:14:42,902 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:14:42,904 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:14:42,904 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:14:42,905 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:14:42,906 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc3c71c0> with deadline=3674.26616692 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcc92aa40>>; now=3673.96616692; delay=0.3
+DEBUG : 2025-08-15 10:14:43,207 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc3f3ca0> with deadline=3674.567311967 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcca5a9c0>>; now=3674.267311967; delay=0.3
+DEBUG : 2025-08-15 10:14:43,508 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc3f3280> with deadline=3674.868163991 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcc92aa40>>; now=3674.568163991; delay=0.3
+DEBUG : 2025-08-15 10:14:43,809 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc3f3ca0> with deadline=3675.1692007290003 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcca5a9c0>>; now=3674.869200729; delay=0.3
+DEBUG : 2025-08-15 10:14:44,110 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc3f3280> with deadline=3675.470118958 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcc92aa40>>; now=3675.170118958; delay=0.3
+INFO : 2025-08-15 10:14:44,416 - status of device: edf8b364-5 - {'response': 4}
+DEBUG : 2025-08-15 10:14:44,424 - [('edf8b364-5', 'MacBookPro15,2', 'off')]
+DEBUG : 2025-08-15 10:14:44,425 - Device: edf8b364-5, status: off
+DEBUG : 2025-08-15 10:14:47,333 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:14:47,335 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:14:47,336 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:14:47,336 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:14:47,337 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:14:47,338 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:14:47,338 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=3678.6985583660003 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949980>>; now=3678.398558366; delay=0.3
+DEBUG : 2025-08-15 10:14:47,640 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=3678.9998153220004 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94b0c0>>; now=3678.699815322; delay=0.3
+DEBUG : 2025-08-15 10:14:47,942 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=3679.301610423 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949c00>>; now=3679.001610423; delay=0.3
+DEBUG : 2025-08-15 10:14:48,244 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=3679.603591676 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949980>>; now=3679.303591676; delay=0.3
+DEBUG : 2025-08-15 10:14:48,545 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=3679.905268928 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94b0c0>>; now=3679.605268928; delay=0.3
+INFO : 2025-08-15 10:14:48,851 - status of device: edf8b364-5 - {'response': 4}
+DEBUG : 2025-08-15 10:14:50,079 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:14:50,080 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:14:50,080 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:14:50,081 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:14:50,081 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:14:50,081 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:14:50,082 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936320> with deadline=3681.441996085 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94b200>>; now=3681.141996085; delay=0.3
+DEBUG : 2025-08-15 10:14:50,383 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=3681.742956379 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94b100>>; now=3681.442956379; delay=0.3
+DEBUG : 2025-08-15 10:14:50,684 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9356c0> with deadline=3682.044456817 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94a0c0>>; now=3681.744456817; delay=0.3
+DEBUG : 2025-08-15 10:14:50,986 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935a50> with deadline=3682.345842945 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94b200>>; now=3682.045842945; delay=0.3
+DEBUG : 2025-08-15 10:14:51,287 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936320> with deadline=3682.647400287 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94b100>>; now=3682.347400287; delay=0.3
+INFO : 2025-08-15 10:14:51,595 - status of device: edf8b364-5 - {'response': 4}
+DEBUG : 2025-08-15 10:46:13,040 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:46:13,041 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:46:13,041 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:13,042 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:46:13,042 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:46:13,043 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:13,043 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936290> with deadline=5564.5120005750005 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>; now=5564.212000575; delay=0.3
+DEBUG : 2025-08-15 10:46:13,345 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d80> with deadline=5564.813372771 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94bd00>>; now=5564.513372771; delay=0.3
+DEBUG : 2025-08-15 10:46:13,646 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936290> with deadline=5565.11460666 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>; now=5564.81460666; delay=0.3
+DEBUG : 2025-08-15 10:46:13,947 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d80> with deadline=5565.415737144001 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94bd00>>; now=5565.115737144; delay=0.3
+DEBUG : 2025-08-15 10:46:14,248 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936290> with deadline=5565.716771223 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>; now=5565.416771223; delay=0.3
+INFO : 2025-08-15 10:46:14,553 - status of device: edf8b364-5 - {'response': 4}
+DEBUG : 2025-08-15 10:46:15,916 - [('edf8b364-5', 'MacBookPro15,2', 'off')]
+DEBUG : 2025-08-15 10:46:15,916 - Device: edf8b364-5, status: off
+DEBUG : 2025-08-15 10:46:15,917 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:46:15,918 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:46:15,918 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:15,919 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:46:15,920 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:46:15,920 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:15,920 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9361a0> with deadline=5567.389284287 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94cb40>>; now=5567.089284287; delay=0.3
+DEBUG : 2025-08-15 10:46:16,222 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9361a0> with deadline=5567.690444473 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94cb40>>; now=5567.390444473; delay=0.3
+DEBUG : 2025-08-15 10:46:16,523 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9361a0> with deadline=5567.991441849 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94cb40>>; now=5567.691441849; delay=0.3
+DEBUG : 2025-08-15 10:46:16,823 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935720> with deadline=5568.292348121 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94ca00>>; now=5567.992348121; delay=0.3
+DEBUG : 2025-08-15 10:46:17,125 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935e10> with deadline=5568.593384700001 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94cb40>>; now=5568.2933847; delay=0.3
+INFO : 2025-08-15 10:46:17,430 - status of device: edf8b364-5 - {'response': 4}
+DEBUG : 2025-08-15 10:46:17,438 - [('edf8b364-5', 'MacBookPro15,2', 'off')]
+DEBUG : 2025-08-15 10:46:17,439 - Device: edf8b364-5, status: off
+DEBUG : 2025-08-15 10:46:55,836 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:46:55,836 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:46:55,837 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:55,837 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:46:55,838 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:46:55,838 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:55,839 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:55,839 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc392aa0> with deadline=5607.307810466 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcc3f8d80>>; now=5607.007810466; delay=0.3
+DEBUG : 2025-08-15 10:46:55,839 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcc392aa0> with deadline=5607.307810466 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcc3f8d80>>
+INFO : 2025-08-15 10:46:55,840 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 10:46:55,919 - status of device: edf8b364-5 - {'response': 2, 'message': 'Выполняю задачу...', 'device_id': 'edf8b364-5'}
+DEBUG : 2025-08-15 10:46:57,317 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:46:57,317 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:46:57,318 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:57,318 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:46:57,319 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:46:57,319 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:46:57,320 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d20> with deadline=5608.788408057 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949300>>; now=5608.488408057; delay=0.3
+DEBUG : 2025-08-15 10:46:57,621 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d20> with deadline=5609.089317263 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94a3c0>>; now=5608.789317263; delay=0.3
+DEBUG : 2025-08-15 10:46:57,922 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d20> with deadline=5609.390585989 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb948880>>; now=5609.090585989; delay=0.3
+DEBUG : 2025-08-15 10:46:58,223 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d20> with deadline=5609.69177141 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949300>>; now=5609.39177141; delay=0.3
+DEBUG : 2025-08-15 10:46:58,524 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb935d20> with deadline=5609.992997433 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94a3c0>>; now=5609.692997433; delay=0.3
+INFO : 2025-08-15 10:46:58,829 - status of device: edf8b364-5 - {'response': 4}
+DEBUG : 2025-08-15 10:48:01,526 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:48:01,527 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:48:01,527 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:48:01,528 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:48:01,529 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:48:01,529 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:48:01,530 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:48:01,531 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9366e0> with deadline=5673.0059791 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949300>>; now=5672.7059791; delay=0.3
+DEBUG : 2025-08-15 10:48:01,532 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9366e0> with deadline=5673.0059791 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb949300>>
+INFO : 2025-08-15 10:48:01,532 - Получил сообщение от клиента: {"response": 4, "message": "Успешно выполнил задачу.", "data": {"downstream": 793.3, "upstream": 222.43}, "device_id": "edf8b364-5"}
+INFO : 2025-08-15 10:48:01,613 - данные теста устройства edf8b364-5, {'downstream': 793.3, 'upstream': 222.43}
+INFO : 2025-08-15 10:48:01,613 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,613 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,614 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,614 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,615 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,615 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,615 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,616 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:48:01,616 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 10:56:21,320 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:56:21,321 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:56:21,321 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:56:21,322 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:56:21,323 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:21,323 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:56:21,324 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:56:21,324 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:21,324 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:21,325 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9366e0> with deadline=6172.8517985240005 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>; now=6172.551798524; delay=0.3
+DEBUG : 2025-08-15 10:56:21,326 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9366e0> with deadline=6172.8517985240005 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>
+INFO : 2025-08-15 10:56:21,326 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:56:21,326 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 10:56:21,332 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:56:21,332 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:56:24,571 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:56:24,572 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:56:24,572 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:56:24,572 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:56:24,573 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:24,573 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:56:24,574 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:56:24,574 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:24,575 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:24,578 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936c80> with deadline=6176.104408582 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94d700>>; now=6175.804408582; delay=0.3
+DEBUG : 2025-08-15 10:56:24,578 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936c80> with deadline=6176.104408582 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94d700>>
+INFO : 2025-08-15 10:56:24,579 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:56:24,579 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 10:56:24,586 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:56:24,588 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:56:32,079 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:56:32,080 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:56:32,081 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:56:32,086 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:56:32,092 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:32,093 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:56:32,094 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:56:32,094 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:32,095 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:56:32,096 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9364d0> with deadline=6183.622736047 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94d100>>; now=6183.322736047; delay=0.3
+DEBUG : 2025-08-15 10:56:32,096 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9364d0> with deadline=6183.622736047 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94d100>>
+INFO : 2025-08-15 10:56:32,098 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:56:32,099 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 10:56:32,111 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:56:32,112 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:57:17,407 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:57:17,407 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 10:57:17,408 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 10:57:17,408 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 10:57:17,409 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:57:17,409 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 10:57:17,410 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 10:57:17,410 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:57:17,411 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 10:57:17,412 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936aa0> with deadline=6228.946288427001 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94a3c0>>; now=6228.646288427; delay=0.3
+DEBUG : 2025-08-15 10:57:17,412 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936aa0> with deadline=6228.946288427001 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94a3c0>>
+INFO : 2025-08-15 10:57:17,413 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 10:57:17,415 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 10:57:17,424 - [('edf8b364-5', 'MacBookPro15,2', 'on')]
+DEBUG : 2025-08-15 10:57:17,424 - Device: edf8b364-5, status: on
+DEBUG : 2025-08-15 11:16:17,938 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 11:16:17,938 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 11:16:17,939 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:17,939 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 11:16:17,940 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 11:16:17,940 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:17,940 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:17,941 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936aa0> with deadline=7369.6250334100005 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>; now=7369.32503341; delay=0.3
+DEBUG : 2025-08-15 11:16:17,941 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936aa0> with deadline=7369.6250334100005 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb9481c0>>
+INFO : 2025-08-15 11:16:17,942 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 11:16:17,942 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 11:16:20,079 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 11:16:20,080 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 11:16:20,080 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:20,081 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 11:16:20,081 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 11:16:20,082 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:20,083 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:20,083 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936890> with deadline=7371.767543961 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94dbc0>>; now=7371.467543961; delay=0.3
+DEBUG : 2025-08-15 11:16:20,085 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936890> with deadline=7371.767543961 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94dbc0>>
+INFO : 2025-08-15 11:16:20,086 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 11:16:20,086 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 11:16:21,148 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 11:16:21,149 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 11:16:21,150 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:21,152 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 11:16:21,153 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 11:16:21,154 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:21,155 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:21,157 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9365c0> with deadline=7372.840893673 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94e500>>; now=7372.540893673; delay=0.3
+DEBUG : 2025-08-15 11:16:21,158 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9365c0> with deadline=7372.840893673 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94e500>>
+INFO : 2025-08-15 11:16:21,159 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 11:16:21,160 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}
+DEBUG : 2025-08-15 11:16:38,002 - Данные, которые отправил клиента для тестирования сети: ssid='test_wlan' password='123' list_id_of_devices=['edf8b364-5']
+DEBUG : 2025-08-15 11:16:38,003 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 11:16:38,003 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 11:16:38,004 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:38,004 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 11:16:38,004 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 11:16:38,005 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:38,005 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:38,006 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9365c0> with deadline=7389.695178554 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94e540>>; now=7389.395178554; delay=0.3
+DEBUG : 2025-08-15 11:16:38,006 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9365c0> with deadline=7389.695178554 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94e540>>
+INFO : 2025-08-15 11:16:38,007 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+DEBUG : 2025-08-15 11:16:42,456 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 11:16:42,457 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 11:16:42,458 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:42,458 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 11:16:42,459 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 11:16:42,459 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:42,460 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:16:42,461 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936710> with deadline=7394.150030996 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94e8c0>>; now=7393.850030996; delay=0.3
+DEBUG : 2025-08-15 11:16:42,461 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb936710> with deadline=7394.150030996 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94e8c0>>
+INFO : 2025-08-15 11:16:42,462 - Получил сообщение от клиента: {"response": 2, "message": "Выполняю задачу...", "device_id": "edf8b364-5"}
+INFO : 2025-08-15 11:16:42,543 - status of device: edf8b364-5 - {'response': 2, 'message': 'Выполняю задачу...', 'device_id': 'edf8b364-5'}
+DEBUG : 2025-08-15 11:19:47,698 - SelectorIOServicesAdapter.set_writer(10, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f8dcc3c5130>>)
+DEBUG : 2025-08-15 11:19:47,698 - set_writer(10, _) updated handler RdWr
+DEBUG : 2025-08-15 11:19:47,699 - Turned on writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:19:47,699 - SelectorIOServicesAdapter.remove_writer(10)
+DEBUG : 2025-08-15 11:19:47,700 - remove_writer(10) updated handler Rd
+DEBUG : 2025-08-15 11:19:47,700 - Turned off writability watcher: <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:19:47,701 - Recv would block on <socket.socket fd=10, family=2, type=1, proto=6, laddr=('172.10.0.4', 50824), raddr=('172.10.0.2', 5672)>
+DEBUG : 2025-08-15 11:19:47,701 - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9358a0> with deadline=7579.41270211 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94bcc0>>; now=7579.11270211; delay=0.3
+DEBUG : 2025-08-15 11:19:47,702 - remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f8dcb9358a0> with deadline=7579.41270211 and callback=<bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f8dcb94bcc0>>
+INFO : 2025-08-15 11:19:47,702 - Получил сообщение от клиента: {"response": 4, "message": "Успешно выполнил задачу.", "data": {"downstream": 651.04, "upstream": 62.13}, "device_id": "edf8b364-5"}
+INFO : 2025-08-15 11:19:47,821 - данные теста устройства edf8b364-5, {'downstream': 651.04, 'upstream': 62.13}
+INFO : 2025-08-15 11:19:47,822 - Получил сообщение от клиента: {"response": 3, "message": "Устройство работает."}
+INFO : 2025-08-15 11:19:47,822 - status of device: edf8b364-5 - {'response': 3, 'message': 'Устройство работает.'}

@@ -113,6 +113,29 @@ h1 {
   border-left-color: var(--rt-blue);
 }
 
+.device-card.working {
+  border-left-color: var(--rt-blue);
+  background-color: rgba(0, 51, 160, 0.05);
+  position: relative;
+}
+
+.device-card.working::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--rt-blue), transparent);
+  animation: progress 2s linear infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes progress {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   25% { transform: translateX(-5px); }
@@ -122,15 +145,70 @@ h1 {
 
 .device-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
   margin-bottom: 8px;
+  gap: 8px;
+}
+
+.device-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
 }
 
 .device-checkbox-container {
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
+  min-width: 0;
+  flex: 1;
+}
+
+.device-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.refresh-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--rt-light-blue);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.refresh-btn:hover {
+  color: var(--rt-blue);
+  background-color: rgba(0, 51, 160, 0.1);
+}
+
+.refresh-btn:active {
+  transform: scale(0.9);
+}
+
+.refresh-btn.loading {
+  animation: spin 1s linear infinite;
+  cursor: progress;
+}
+
+.refresh-btn.working {
+  color: var(--rt-blue);
+  background-color: rgba(0, 51, 160, 0.1);
+  pointer-events: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .device-card h3 {
@@ -139,6 +217,17 @@ h1 {
   font-size: 1.1rem;
   font-weight: 500;
   pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}
+
+.device-status-row {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .device-status {
@@ -147,7 +236,6 @@ h1 {
   border-radius: 20px;
   font-size: 13px;
   font-weight: 500;
-  margin-top: 5px;
 }
 
 .status-on {
@@ -160,7 +248,11 @@ h1 {
   color: white;
 }
 
-/* Элегантные чекбоксы */
+.status-working {
+  background-color: var(--rt-blue);
+  color: white;
+}
+
 .device-checkbox {
   position: relative;
   width: 24px;
@@ -241,7 +333,6 @@ h1 {
   align-items: center;
 }
 
-/* Поля для Wi-Fi данных */
 .wifi-credentials {
   flex: 1;
   min-width: 300px;
@@ -378,7 +469,6 @@ h1 {
   border-bottom: none;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -430,5 +520,16 @@ h1 {
   
   .input-group input {
     padding: 10px 12px;
+  }
+  
+  .device-title-row {
+    flex-wrap: wrap;
+  }
+  
+  .device-actions {
+    margin-left: 0;
+    margin-top: 8px;
+    width: 100%;
+    justify-content: flex-end;
   }
 }
