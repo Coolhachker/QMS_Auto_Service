@@ -16,10 +16,11 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
+
   rabbitmq_container:
     image: rabbitmq:latest
     ports:
-      - 127.0.0.1:5672:5672
+      - 5672:5672
     networks:
       back:
         ipv4_address: 172.10.0.2
@@ -30,6 +31,40 @@ services:
       interval: 10s
       timeout: 20s
       retries: 5
+    depends_on:
+      fluentd-logger:
+        condition: service_healthy
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: 172.10.0.5:24224
+        tag: rabbitmq-service
+    restart: unless-stopped
+
+
+  fluentd-logger:
+    build:
+      dockerfile: ./Dockerfile_Fluentd
+    networks:
+      back:
+        ipv4_address: 172.10.0.5
+      default:
+    container_name: fluentd-logger
+    ports:
+      - 24224
+      - 127.0.0.1:9880:9880
+    volumes:
+      - ./configs/fluentd/config:/fluentd/etc
+      - ./data/logs:/fluentd/log
+      - ./configs/fluentd/plugins:/fluentd/plugins
+    environment:
+      - FLUENTD_CONF=fluentd.conf
+    healthcheck:
+      test: ["CMD", "sh", "-c", "echo 'Checking Fluentd...' && exit 0"]
+      interval: 5s
+      timeout: 3s
+      retries: 1
+      start_period: 10s
     restart: unless-stopped
 
 

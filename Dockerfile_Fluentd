@@ -1,0 +1,5 @@
+FROM fluent/fluentd:v1.16-1
+
+USER root
+RUN apk add --no-cache ruby-dev build-base
+RUN gem install fluent-plugin-formatter_pretty_json

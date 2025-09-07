@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Текущее состояние логов
   let lastLogSize = 0;
-  let logRefreshInterval = 10000;
+  let logRefreshInterval = 10000000000000;
   let logUpdateTimer = null;
 
   // Функция обновления состояния карточки
@@ -19,24 +19,75 @@ document.addEventListener('DOMContentLoaded', async function() {
     card.classList.toggle('active', isChecked);
   }
 
-  // Загрузка устройств
-  async function loadDevices() {
-    logMessage("Загрузка списка устройств...");
-    try {
-      const response = await fetch('/get_devices', {
-        method: "GET"
-      });
+  // Новая функция для загрузки устройств через WebSocket
+  function loadDevices() {
+    return new Promise((resolve, reject) => {
+      logMessage("Установка WebSocket соединения для получения устройств...");
+      
+      // Создаем WebSocket соединение
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      const ws = new WebSocket(`${protocol}//${window.location.host}/get_devices`);
+      const devices = [];
+      let connectionTimeout;
 
-      if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+      // Таймаут для соединения
+      const connectionTimeoutDelay = 500000000;
+      
+      // Обработчики WebSocket
+      ws.onopen = () => {
+        logMessage("WebSocket соединение установлено");
+        clearTimeout(connectionTimeout);
       };
 
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      logMessage(`Ошибка загрузки: ${error.message}`);
-      return [];
-    }
+      ws.onmessage = (event) => {
+        try {
+          // Проверяем сообщение о завершении
+          if (event.data === '0') {
+            logMessage("Все устройства получены, закрытие соединения");
+            ws.close();
+            resolve(devices);
+            return;
+          }
+
+          // Парсим данные устройства
+          const deviceData = JSON.parse(event.data);
+          
+          // Валидация основных полей
+          if (!deviceData.device_id || !deviceData.device_name) {
+            throw new Error('Получены неполные данные устройства');
+          }
+
+          devices.push(deviceData);
+          logMessage(`Получено устройство: ${deviceData.device_name}`);
+          
+          // Опционально: обновляем интерфейс по мере поступления данных
+          renderDevices(devices);
+
+        } catch (error) {
+          console.error('Ошибка обработки сообщения:', error);
+          logMessage(`Ошибка обработки устройства: ${error.message}`);
+        }
+      };
+
+      ws.onerror = (error) => {
+        console.error('WebSocket ошибка:', error);
+        clearTimeout(connectionTimeout);
+        reject(new Error('Ошибка соединения с сервером'));
+      };
+
+      ws.onclose = (event) => {
+        clearTimeout(connectionTimeout);
+        if (!event.wasClean && devices.length === 0) {
+          reject(new Error('Соединение прервано до получения данных'));
+        }
+      };
+
+      // Таймаут соединения
+      connectionTimeout = setTimeout(() => {
+        ws.close();
+        reject(new Error('Таймаут соединения с сервером'));
+      }, connectionTimeoutDelay);
+    });
   }
 
   // Отображение устройств
